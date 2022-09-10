@@ -16,6 +16,10 @@ const UrlItem = ({url}) => {
             <div className="rickAndMorty-card">
              {imgRandM.name}
             <br />
+            <b>Type: </b>{imgRandM.type}
+            <br />
+            <b>Dimension: </b>{imgRandM.dimension}
+            <br />
             <img src={imgRandM.image} alt="" />
             </div>
         </li>
